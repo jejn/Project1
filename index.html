@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<!-- HTML document / Introduction to Programming / Stage 1 -->
+<head>
+  <!-- The title is shown at the top of the browser -->
+  <title>The Introduction to Programming Project</title>
+  <link rel="Stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <a id="top"></a>
+  <div class="headline">
+    <h1>NOTES: INTRODUCTION TO PROGRAMMING [A UDACITY NANODEGREE]</h1>
+  </div>
+  <div class="empty-box"></div>
+  <div class="lesson-box">
+    <div class="lesson-box-title"><h2>Lesson 1: The Basics</h2></div>
+    <div class="lesson-box-content">
+      <h3>The World Wide Web</h3>
+      <p>
+        The web is made up of Billions of HTML <em>(<u>H</u>yper<u>T</u>ext <u>M</u>arkup <u>L</u>anguage)</em> documents connected through <em>Hyperlinks</em>. The content on the Internet is stored on servers that can be accessed through a web browser.
+      </p>
+      <p>
+        A web browser communicate with servers through <em>HTTP</em> protocol by entering a <em>URL</em>. The server will in turn respond with a document which the browser interprets and displays.
+      </p>
+      <hr>
+      <h3>HyperText Markup Language</h3>
+      <p>
+        HTML is the language used to visualize the content of the web by a common standard. A HTML document is made up of:
+      </P>
+      <ul>
+        <li>Text content - <em>(What you see)</em></li>
+        <li>Markup - <em>(What it looks like)</em></li>
+        <li>References to other documents - <em>(e.g. images and videos)</em></li>
+        <li>Links to other pages - <em>(Hyperlinks)</em></li>
+      </ul>
+      <hr>
+      <h3>Tags and Elements</h3>
+      <p>
+        HTML code consists of <em>elements</em> containing <em>tags</em>. There's an <em>opening</em> and <em>closing</em> tag. The structure looks like this:
+      <p>
+        <code>&lt;opening-tag&gt;content&lt;/closing-tag&gt;</code>
+      </p>
+      <p>
+        This constitutes an element. <em>Void tags</em> are the exception as they don't require a <em>closing tag</em>. An example of this is the <code>&lt;br&gt;</code> tag.
+      </p>
+      <hr>
+      <h3>Attributes</h3>
+      <p>
+        Tags can also contain <em>Attributes</em> which can, for example, create a link to a different web-page. The <em>Anchor</em> tag is an example of this: <code>&lt;a href="www.udacity.com"&gt;</code> where <code>href</code> is the <em>Attribute</em> and <code>"www.udacity.com"</code> is the <em>value</em>.
+      </p>
+      <hr>
+      <h3>Inline and Block Elements</h3>
+      <p>
+        HTML elements are divided into two different categories: <em>Inline</em> and <em>Block</em>. Inline elements are, as the name suggests; in line, and Block elements have an "invisible box" around them.
+      </p>
+      <hr>
+      <h3>How computers interprets code</h3>
+      <p>
+        When code, such as HTML, is rendered by a web browser it's done so <u>literally</u>. In other words; the computer is not applying any creativity when it "reads" code to fill in blanks or correct for errors <em>(as a human might do)</em>. It also means that it will do <u>exactly</u> what the code tells it to do.
+      </p>  
+    </div>
+    <div class="lesson-box-bottom">
+      <p>
+        <a href="#top">Back to Top</a>
+      </p>
+    </div>
+  </div>
+  <div class="lesson-box">
+    <div class="lesson-box-title"><h2>Lesson 2: HTML and CSS</h2></div>
+    <div class="lesson-box-content">
+      <h3>Structure</h3>
+      <p>
+        HTML and CSS <em>(<u>C</u>ascading <u>S</u>tyle <u>S</u>heets)</em> are two Languages that work together to bring structure and style, respectively, to a website <em>(JavaScript brings the action)</em>. HTML is structured with tags through something called <a href="http://en.wikipedia.org/wiki/Document_Object_Model">DOM</a> <em>(Document Object Model)</em>.
+      </p>
+      <p>
+        The structure of HTML is much like a family tree, where elements branches out into more elements and form relations. Parent elements can have child elements and so on. These relations have significance as to how rules are <u>inherited</u> throughout the structure.
+      </p>
+      <p>
+        The underlying structure of HTML is made up of boxes. When building a HTML document it's best practice to start by outlining the "box structure" first. The most fundamental building block in this structure is the <code>&lt;div&gt;</code> element.
+      </p>
+      <hr>
+      <h3>Style</h3>
+      <p>
+        In programming it's important to avoid repetition, not only to save time but also to minimize mistakes. By using CSS you can simplify and streamline the styling process by applying the same features to many different elements at the same time.
+      </p>
+      <p>
+        Inheritance is one of the key features of CSS. In general, text properties are inherited from parent elements while box elements are not.
+      </p>
+      <p>
+        In CSS you work with <em>Selectors</em> and <em>Declarations</em>. <em>Declarations</em> are broken down into <em>Properties</em> and <em>Values</em>: <code>selector { property: value; }</code>.
+      </p>
+      <p>
+        There are many different types of <em>Selectors</em> you can work with in CSS. A good explanation of how they work and what they do can be found <a href="https://css-tricks.com/how-css-selectors-work/">here</a>. However, one important function of CSS is that you can precisely specify which <em>HTML element(s)</em>, rules are applied to depending on which type of <em>Selector</em> you use.
+      </p>
+    </div>
+    <div class="lesson-box-bottom">
+      <p>
+        <a href="#top">Back to Top</a>
+      </p>
+    </div>
+  </div>  
+</body>
+</html>
